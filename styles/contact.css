@@ -1,0 +1,19 @@
+.contactform {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  max-width: 450px;
+  display: block;
+  background: chartreuse;
+  align-items: center;
+  text-align: left;
+  font-size: 18px;
+  padding: 5vh;
+}
+
+label {
+  padding: 10px;
+  min-height: 22px;
+}

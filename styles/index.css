@@ -1,13 +1,13 @@
 img {
+  display: flex;
   align-items: center;
   margin: auto;
   margin-top: 22px;
-  max-width: 52vh;
+  max-width: 44vh;
+  max-height: 55vh;
 }
 footer {
   background: chartreuse;
   min-height: 22vh;
-  max-width: 80%;
-  display: block;
   color: aliceblue;
 }

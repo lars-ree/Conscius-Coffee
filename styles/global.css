@@ -4,14 +4,32 @@
 }
 
 body {
-  background: #555555;
+  background: #ffffff;
 }
-h1 {
-  color: #ffffff;
-  font-weight: 100;
-  font-size: 28px;
+h2 {
+  margin-top: 2px;
+  padding-top: 1px;
+  color: #3a834c;
+  font-weight: 200;
+  font-size: 38px;
   text-align: center;
+  letter-spacing: 0.5rem;
+  animation-name: moveInRight;
+  animation-duration: 2s;
 }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 li {
   text-align: center;
   font-size: 22px;
@@ -19,8 +37,11 @@ li {
 }
 li a {
   font-weight: 100;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
   text-decoration: none;
-  color: #ffffff;
+  color: #3a834c;
+  letter-spacing: 1px;
+  animation-name: moveInRight;
+  animation-duration: 3s;
 }
