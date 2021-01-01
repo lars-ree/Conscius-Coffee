@@ -13,7 +13,19 @@ img {
   max-height: 55vh;
 }
 
-p {
+.p1 {
+  display: block;
+  align-items: center;
+  max-width: 42vh;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  font-weight: 100;
+}
+.p2 {
+  display: block;
+  align-items: center;
+  max-width: 42vh;
   padding-left: 3px;
   padding-right: 3px;
   text-align: center;

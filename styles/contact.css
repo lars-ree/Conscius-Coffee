@@ -1,19 +1,41 @@
 .contactform {
+  max-width: 365px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 form {
-  max-width: 450px;
+  max-width: 365px;
   display: block;
-  background: chartreuse;
+  background: rgba(31, 128, 71, 0.5);
   align-items: center;
   text-align: left;
   font-size: 18px;
   padding: 5vh;
+  border-radius: 6px;
 }
-
+textarea {
+  max-width: 350px;
+  border-radius: 6px;
+}
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 200;
+  padding-bottom: 5px;
+}
+p {
+  text-align: center;
+  max-width: 365px;
+}
 label {
+  max-width: 250px;
   padding: 10px;
   min-height: 22px;
+  border-radius: 6px;
+}
+input {
+  border-radius: 6px;
+  color: blue;
 }
