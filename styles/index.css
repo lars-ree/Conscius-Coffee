@@ -5,7 +5,14 @@ img {
   align-items: center;
   margin: auto;
   margin-top: 22px;
-  max-width: 44vh;
-  max-height: 55vh;
+  max-width: vh;
+  max-height: 50vh;
   padding-bottom: 10px;
+}
+p {
+  text-align: center;
+  font-weight: 100;
+}
+.right {
+  display: none;
 }

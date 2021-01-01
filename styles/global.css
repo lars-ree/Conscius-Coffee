@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #e7e7e7;
 }
 h1 {
   color: #3a834c;
@@ -51,9 +51,8 @@ li a {
   padding-right: 1vh;
   text-decoration: none;
   color: #3a834c;
-
   animation-name: moveInRight;
-  animation-duration: 2.3s;
+  animation-duration: 2.2s;
 }
 .nav {
   border-bottom: solid #3a834c 1px;
@@ -61,67 +60,7 @@ li a {
 footer {
   padding-top: 10px;
 }
-.about {
-  padding-left: 0%;
-  margin-left: 0%;
-}
-
-@media screen and (max-width: 750px) {
-  .contactform {
-    padding-bottom: 10px;
-  }
-}
-
 @media screen and (min-width: 750px) {
-  .contactform {
-    padding-bottom: 10px;
-    display: block;
-    padding-left: 15vh;
-  }
   p {
-    text-align: center;
-    display: grid;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-
-  img {
-    display: block;
-    margin-right: 25%;
-    margin-left: 25%;
-  }
-  .about {
-    text-align: center;
-    align-content: center;
-    padding: 0%;
-  }
-
-  .p1 {
-    text-align: center;
-  }
-  .p2 {
-    text-align: center;
-  }
-  .brew {
-    display: block;
-    position: left;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  main {
-    display: grid;
-    padding-left: 20vh;
-  }
-}
-@media screen and (min-width: 1024px) {
-  main {
-    text-align: center;
-    align-items: center;
-    display: grid;
-    margin-left: 30%;
-  }
-  h1 {
-    text-align: center;
-  }
+  font-size: 25px;
 }
