@@ -12,19 +12,14 @@ form {
   align-items: center;
   text-align: left;
   font-size: 18px;
-  padding: 5vh;
+  padding: 20px;
   border-radius: 6px;
 }
 textarea {
   max-width: 350px;
   border-radius: 6px;
 }
-h1 {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 200;
-  padding-bottom: 5px;
-}
+
 p {
   text-align: center;
   max-width: 365px;
@@ -37,5 +32,8 @@ label {
 }
 input {
   border-radius: 6px;
-  color: blue;
+  color: #121211;
+}
+body {
+  min-height: 100%;
 }

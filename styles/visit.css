@@ -5,7 +5,7 @@ iframe {
   padding-left: 1.5vh;
 }
 main {
-  padding-left: 40vh;
+  display: block;
   align-items: center;
   text-align: center;
   max-width: 350px;
@@ -14,13 +14,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-weight: 100;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 200;
-  padding-bottom: 5px;
-}
 .p1 {
   font-weight: 200;
   letter-spacing: 0.1px;

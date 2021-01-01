@@ -1,12 +1,7 @@
-h1 {
-  font-size: 25px;
-  text-align: center;
-  color: #3a834c;
-}
-
 img {
-  display: flex;
-  align-items: center;
+  display: block;
+  text-align: center;
+  align-items: auto;
   margin: auto;
   margin-top: 22px;
   max-width: 44vh;
